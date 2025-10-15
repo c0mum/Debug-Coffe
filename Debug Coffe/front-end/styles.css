@@ -205,26 +205,53 @@ header{
  color: var(--black);
 }
 
-.time .box-container .box{
+.review .box-container .box{
     border: var(--border);
     text-align: center;
-    padding: 2rem;
+    padding: 3rem 2rem;
 }
 
-.time .box-container .box p{
+.review .box-container .box p{
     font-size: 1.5rem;
     color: #fff;
     padding: 2rem 0;
     line-height: 1.8;
+    font-weight: lighter;
 }
 
-.time .box-container .box .user{
-    height: 7rem;
-    width: 7rem;
+.review .box-container .box h3{
+    color: #fff;
+    font-size: 2rem;
+    margin: 1rem 0
+}
+
+.review .box-container .box .user{
+    height: 10rem;
+    width: 10rem;
     border-radius: 50%;
 }
 
-.time .box-container .box h1{
-    color: #fff;
-    font-size: 2rem;
+.address{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer{
+    text-align: center;
+}
+
+.footer .share{
+    padding: 1rem 0;
+}
+
+.footer .share img{
+    margin: 0.3rem;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+.footer .share img:hover{
+    background-color: var(--main-color);
 }
